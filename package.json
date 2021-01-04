@@ -1,0 +1,75 @@
+{
+  "_from": "paellaplayer",
+  "_id": "paellaplayer@6.4.5",
+  "_inBundle": false,
+  "_integrity": "sha512-f19r2xXxGvdH+FxKrI1TuMVp35tWJFSxjwkYi9pjQkGDwG0/dwGF6K2FxF3NxDdNYYSR1nVuCZuFdFQgEMXN4A==",
+  "_location": "/paellaplayer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "paellaplayer",
+    "name": "paellaplayer",
+    "escapedName": "paellaplayer",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/paellaplayer/-/paellaplayer-6.4.5.tgz",
+  "_shasum": "15d44fad29a1fcfd259852cbf4c8eb29ccd1151a",
+  "_spec": "paellaplayer",
+  "_where": "E:\\Internship\\Opencast\\opencast_portal",
+  "bugs": {
+    "url": "https://github.com/polimediaupv/paella/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bg2e-js": "=1.3.32",
+    "hls.js": "^0.14.16",
+    "jquery": "^3.5.1",
+    "lunr": "^2.3.9",
+    "requirejs": "^2.3.6"
+  },
+  "deprecated": false,
+  "description": "Paella Player",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "chromedriver": "^86.0.0",
+    "electron-window-state-manager": "^0.3.2",
+    "glob-all": "^3.2.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-less": "^4.0.0",
+    "gulp-merge-json": "^2.1.1",
+    "gulp-nightwatch": "^1.2.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify-es": "^2.0.0",
+    "markdownlint-cli": "^0.24.0",
+    "natives": "^1.1.6",
+    "nightwatch": "^1.5.1"
+  },
+  "homepage": "https://github.com/polimediaupv/paella#readme",
+  "license": "ECL-2.0",
+  "name": "paellaplayer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polimediaupv/paella.git"
+  },
+  "scripts": {
+    "build": "gulp",
+    "markdownlint": "markdownlint ./doc/",
+    "serve": "gulp serve",
+    "test": "gulp test:local"
+  },
+  "version": "6.4.5"
+}
